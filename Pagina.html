@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Filtrando elementos por categorias</title>
+
+	<link rel="stylesheet" href="Css/Estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+	<script src="JS/jquery-3.2.1.js"></script>
+	<script src="JS/script.js"></script>
+	<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+	<div class="wrap">
+		<h1>Welcome to fizgon</h1>
+		<div class="store-wrapper">
+			<div class="category_list">
+				<a href="#" class="category_item" category="all">All</a>
+				<a href="#" class="category_item" category="consolas">Consolas</a>
+				<a href="#" class="category_item" category="laptops">Laptops</a>
+				<a href="#" class="category_item" category="smartphones">Smartphones</a>
+				<a href="#" class="category_item" category="PC">PC</a>
+				<a href="#" class="category_item" category="camaras">Camara</a>
+			</div>
+			<section class="products-list">
+				<div class="product-item" category="PC">
+					<img src="IMAGES/asus.jpg" alt="" height="200" width="200">
+					<a href="https://www.asus.com/es/displays-desktops/monitors/all-series/">Monitor Asus</a>
+				</div>
+				<div class="product-item" category="PC">
+					<img src="IMAGES/PC Gamer2.jpg" alt="" height="200" width="200">
+					<a href="https://creacion3d.com/que-es-pc-gamer/">PC Gamer</a>
+				</div>
+				<div class="product-item" category="PC">
+					<img src="IMAGES/Pc Torre Gamer Amd Ryzen.jpg" alt="" height="200" width="200">
+					<a href="https://www.linio.com.co/p/pc-torre-gamer-amd-ryzen-3-3200g-disco-ssd-nvme-240gb-1tb-ram-8gb-monitor-20-con-audio-oqxds4#:~:text=Pc%20Torre%20Gamer%20Amd%20Ryzen%203%203200G%20Disco,240Gb%20%2B1TB%20Ram%208gb%20Monitor%2020%22%20CON%20AUDIO..">Pc Torre Gamer Amd Ryzen</a>
+				</div>
+				<div class="product-item" category="smartphones">
+					<img src="IMAGES/iphone rojo.jpg" alt="" height="200" width="200">
+					<a href="https://www.xataka.com/analisis/iphone-11-analisis-caracteristicas-precio-especificaciones">Iphone 11 (128 GB)</a>
+				</div>
+				<div class="product-item" category="smartphones">
+					<img src="IMAGES/Samsung-Galaxy-A32.jpg" alt="" height="200" width="200">
+					<a href="https://www.samsung.com/co/smartphones/galaxy-a/galaxy-a32-awesome-black-128gb-sm-a325mzkkltc/?cid=co_pd_ppc_google_galaxy-a32_ecommerce_ao_text_performance-im-1x1-221018_keywords-responsive&gclid=CjwKCAiAjs2bBhACEiwALTBWZTycxilgIwc-ozVyvfpLGVblg_KyYoBRe97f-prxUEL50sMA1EsRSRoCacwQAvD_BwE">Samsung-Galaxy-A32</a>
+				</div>
+				<div class="product-item" category="smartphones">
+					<img src="IMAGES/A52.jpg" alt="" height="200" width="200">
+					<a href="https://www.xataka.com/moviles/samsung-galaxy-a52s-5g-caracteristicas-precio-ficha-tecnica">Samsung-Galaxy-A52s</a>
+				</div>
+				<div class="product-item" category="smartphones">
+					<img src="IMAGES/Celular-SAMSUNG-Galaxy-S20-FE-5G-128-GB-Violeta-3206694_a.webp" alt="" height="200" width="200">
+					<a href="https://www.xataka.com/analisis/samsung-galaxy-s20-fe-analisis-caracteristicas-precio-especificaciones">Samsung Samsung-S20 FE 5G</a>
+				</div>
+				<div class="product-item" category="smartphones">
+					<img src="IMAGES/Iphone 14 pro max.jpg" alt="" height="200" width="200">
+					<a href="https://www.apple.com/co/iphone-14-pro/specs/">Iphone 14 pro max</a>
+				</div>
+				<div class="product-item" category="laptops">
+					<img src="IMAGES/Laptop HP.jpg" alt="" height="200" width="200">
+					<a href="https://support.hp.com/co-es/document/c05552647">Laptop Hp</a>
+				</div>
+				<div class="product-item" category="laptops">
+					<img src="IMAGES/Lenovo AMD Rysen 5.jpg" alt="" height="200" width="200">
+					<a href="https://articulo.mercadolibre.com.co/MCO-605764649-portatil-lenovo-ryzen-5-16gb-512gb-ssd-legion-5-156-_JM#:~:text=AMD%20Ryzen%205%205600H%20%286C%20%2F%2012T%2C%203.3,GDDR6%2C%20Boost%20Clock%201425%20%2F%201702MHz%2C%20TGP%20130W">Lenovo AMD Rysen 5</a>
+				</div>
+				<div class="product-item" category="laptops">
+					<img src="IMAGES/Dell inspiron.jpg" alt="" height="200" width="200">
+					<a href="https://www.dell.com/co/p/inspiron-15-3515-laptop/pd">Dell inpiron 15</a>
+				</div>
+				<div class="product-item" category="laptops">
+					<img src="IMAGES/PORTATIL-HP-15-DK1025LA-3.jpeg" alt="" height="200" width="200">
+					<a href="https://www.hp.com/co-es/shop/portatil-hp-pavilion-gaming-15-dk1505la-470j5la.html">Portatil Gamer HP</a>
+				</div>
+				<div class="product-item" category="laptops">
+					<img src="IMAGES/acer.jpg" alt="" height="200" width="200">
+					<a href="https://www.winpy.cl/venta/notebook-acer-aspire-3-a315-51-30cq-i3-7020u-4gb-ram-1tb-hdd-pantalla-15-6-win10/#:~:text=Caracter%C3%ADsticas%20Notebook%20Acer%20Aspire%203%20-%20A315-51-30CQ%20Con,experiencia%20de%20visualizaci%C3%B3n%20de%20video%2C%20pel%C3%ADculas%20y%20juegos.">Acer Aspire 3</a>
+				</div>
+				<div class="product-item" category="consolas">
+					<img src="IMAGES/PS5.jpg" alt="" height="200" width="200">
+					<a href="https://www.xataka.com/analisis/playstation-5-analisis-caracteristicas-precio-especificaciones">PS5</a>
+				</div>
+				<div class="product-item" category="consolas">
+					<img src="IMAGES/xbox series x.jfif" alt="" height="200" width="200">
+					<a href="https://www.xataka.com/analisis/xbox-series-x-analisis-caracteristicas-precio-especificaciones">xbox series x</a>
+				</div>
+				<div class="product-item" category="consolas">
+					<img src="IMAGES/play4.jpg" alt="" height="200" width="200">
+					<a href="https://www.playstation.com/es-co/ps4/tech-specs/">PS4</a>
+				</div>
+				<div class="product-item" category="consolas">
+					<img src="IMAGES/PS3-SS-1-660x432.jpg" alt="" height="200" width="200">
+					<a href="https://hipertextual.com/2005/05/caracteristicas-tecnicas-del-ps3">PS3</a>
+				</div>
+				<div class="product-item" category="camaras">
+					<img src="IMAGES/Gopro.jpg" alt="" height="200" width="200">
+					<a href="https://www.rankia.com/blog/mejores-ofertas-internet/2451971-que-gopro-caracteristicas-modelos-precios-soportes">Gopro</a>
+				</div>
+				<div class="product-item" category="camaras">
+					<img src="IMAGES/Nikon D5600.jpg" alt="" height="200" width="200">
+					<a href="https://www.nikon.com.mx/nikon-products/product/dslr-cameras/d5600.html">Nikon D5600</a>
+				</div>
+				<div class="product-item" category="camaras">
+					<img src="IMAGES/Canon eos 4000D.jpg" alt="" height="200" width="200">
+					<a href="https://www.canon.es/cameras/eos-4000d/specifications/">Canon eos 4000D</a>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<footer>
+
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="IMAGES/aguila.jpg" alt="">
+                </div>
+                <div class="terms">
+                    <p>Terminos</p><br>
+					<p>Estamos aquí para brindarte información de los precios actuales de
+						 respectivos electrodomésticos, también estaremos pendientes de nuestras redes sociales para responder tus dudas.</p>
+                </div>
+            </div>
+            <div class="box__footer">
+                <h2>Soluciones</h2>
+                <a href="https://www.google.com">App Desarrollo</a>
+                <a href="#">App Marketing</a>
+                <a href="#">IOS Desarrollo</a>
+                <a href="#">Android Desarrollo</a>
+            </div>
+
+            <div class="box__footer">
+                <h2>Compañia</h2>
+                <a href="#">Acerca de</a>
+                <a href="#">Trabajadores</a>
+                <a href="#">Procesos</a>
+                <a href="#">Servicios</a>              
+            </div>
+
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+            </div>
+
+        </div>
+
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2022 <b>Fizgones</b></p>
+        </div>
+    </footer>
+
+</body>
+</html>
